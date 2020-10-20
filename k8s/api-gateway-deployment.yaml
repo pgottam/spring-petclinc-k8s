@@ -18,7 +18,7 @@ spec:
         app: api-gateway
     spec:
       containers:
-      - image: harbor.pgottam-demo.live/devregistry/api-gateway:21
+      - image: harbor.pgottam-demo.live/devregistry/api-gateway:22
         name: api-gateway
         imagePullPolicy: Always
         livenessProbe:
